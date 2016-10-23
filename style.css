@@ -1,1 +1,46 @@
+header{
+    font-size: 4em;
+}
 
+table{
+    border: 3px solid black;
+    border-spacing: 0;
+    width: 80%;
+    margin:auto;
+}
+
+caption{
+    font-size: 3em;
+    text-align: center;
+}
+
+th{
+   
+    border: 1px solid navy;
+    font-weight: bold;
+}
+
+td,th{
+    padding: 5px;
+    border: 1px solid navy;
+
+}
+
+
+tr:nth-of-type(odd){
+    background-color: cornsilk;
+}
+
+tr:first-of-type{
+    background-color: darkcyan;
+}
+
+.semester{
+    color:cadetblue;
+    background-color: greenyellow;
+}
+
+.summary{
+    background-color: aquamarine;
+    
+}
